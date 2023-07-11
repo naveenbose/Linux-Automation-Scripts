@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Naveen Bose
 # Purpose: Advanced server monitoring script
-# Description: This script monitors CPU usage, memory usage, and disk space. It sends email notifications when thresholds are exceeded.
+# Description: This script monitors CPU usage, memory usage, and disk space. If any of these metrics exceed the specified thresholds, it sends an email notification using the configured SMTP server. Adjust the email configuration variables (recipient, sender, smtp_server, smtp_port, smtp_username, smtp_password) and customize the threshold values as per your requirements.Please note that this script requires the sendmail command-line tool to be installed on your system to send email notifications. Additionally, make sure to replace the placeholder email addresses and SMTP server details with the actual values
 
 # Email configuration
 recipient="admin@example.com"
