@@ -11,8 +11,9 @@ exit 1
 fi                                                                              
                                                                                 
 filename=$1
-letters=$2                                                                      
-                                                                     
-grep -i $letters $filename | more                                                     
-                                                                                
-echo "Here you go"  
+letters=$2  
+
+ echo "Here you go"                                                                    
+        grep -i $letters $filename | more                                                     
+ echo "Well done"                                                                               
+  
