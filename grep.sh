@@ -13,6 +13,6 @@ fi
 filename=$1
 letters=$2                                                                      
                                                                      
-grep -i $letters $filename                                                      
+grep -i $letters $filename | more                                                     
                                                                                 
 echo "Here you go"  
